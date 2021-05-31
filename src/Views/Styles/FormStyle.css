@@ -1,0 +1,28 @@
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    border: solid black 2px;
+    padding: 2%;
+    
+}
+form > input{
+    width: 80%;
+    margin-left: 5%;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+form > label{
+    align-self: flex-start;
+}
+form > button{
+    width: 20%;
+    margin-top: 2%;
+    align-self: flex-end;
+    border: solid black 2px;
+    padding: 2%;
+    background-color: none;
+}
