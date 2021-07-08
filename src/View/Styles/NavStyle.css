@@ -1,0 +1,92 @@
+.nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: radial-gradient( at bottom left ,#DBE8E1 ,#034687);
+    
+}
+#logo{
+    margin:  0vw  45vw  0vw  5vw;
+    height: 5vh;
+    width: 20vw;
+    border: solid black 2px;
+}
+.nav a{
+    margin-left: 2vw;
+    text-decoration: none;
+    font-weight: bolder;
+    color:#DBE8E1;
+}
+.nav a:focus{
+    color: #B1D4E0;
+}
+#burger{
+    display: flex;
+    width: 8vw;
+    height: 3vh;
+    flex-direction: column;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    left: 2%;
+}
+#burger span{
+    border: solid black 3px;
+    margin-top: .5vh;
+    border-radius: 5px;
+
+}
+#nav-cont{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: absolute;
+    row-gap: 2vh;
+    width: 50vw;
+    background-image: radial-gradient( at bottom left ,#DBE8E1 ,#034687);
+    align-items: center;
+
+}
+
+#nav-cont a{
+    margin-top: 5vh;
+}
+.icons{
+    width: 10vw;
+}
+#log-ico{
+    width: 10vw;
+}
+#log-mobile{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    padding-top: 20%;
+}
+#log-mobile input{
+    height: 5vh;
+    padding-left: 2%;
+}
+#log-mobile button{
+    height: 10vh;
+    background-color: transparent;
+    border: black 2px solid;
+}
+#log-signup{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position:relative;
+    top: 20%;
+    
+}
+#log-signup input{
+    width: 80vw;
+    margin-top: 2vh;
+    height: 5vh;
+}
+#log-signup button{
+    margin-top: 2vh;
+}
+

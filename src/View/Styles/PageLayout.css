@@ -1,0 +1,69 @@
+.page-flex-layout-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+}
+.page-flex-layout-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+} 
+
+#about p{
+    text-indent: 5vw;
+    
+}
+#log_form{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    row-gap: 2vh;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 4%;
+    height: 40vh;
+}
+#log_form input{
+    height: 5vh;
+    padding-left: 2%;
+    border-radius: 5px;
+    background-color:#DBE8E1;
+    border: none;
+}
+#log_form button{
+    width: 20vw;
+    margin-left: 5vw;
+    height: 5vh;
+    background-color: transparent;
+    border: solid black 2px;
+}
+#soc-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: -10%;
+}
+#soc-icons img{
+    height: 6vh;
+    margin-left: 1vw;
+
+}
+#log_form a{
+    text-decoration: none;
+    color: #151B25;
+}
+.basePage{
+    background-image: radial-gradient( at top left ,#DBE8E1 ,#034687);
+    height: 100vh;
+}
+#about{
+    width: 50vw;
+}
+#about h1{
+    margin-left: 5vw;
+    color:#151B25;
+    text-decoration: underline;
+}
